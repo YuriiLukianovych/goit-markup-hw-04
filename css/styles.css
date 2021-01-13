@@ -71,6 +71,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
+.contact-icons {
+  margin-right: 10px;
+}
 
 /* ---------------------------------- END COMPONENTS -------------------------------- */
 
@@ -122,6 +125,8 @@ img {
 
 .contact-mail,
 .contact-phone {
+  display: flex;
+  align-items: center;
   color: #757575;
 }
 .contact-mail:hover,
@@ -132,7 +137,9 @@ img {
 .navigation-link:focus {
   color: var(--accent-color);
 }
-
+.header .adress {
+  display: flex;
+}
 /* ------------------- HERO ---------------------------------- */
 
 .hero {
