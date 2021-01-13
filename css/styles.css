@@ -299,7 +299,33 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .card-content {
-  padding: 30px;
+  padding: 30px 32px;
+}
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: #afb1b8;
+}
+.social-link:hover {
+  background-color: var(--accent-color);
+}
+.social-link:hover .social-icon {
+  fill: #ffffff;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
 
 /* ------------------------------------------------ PORTFOLIO ------------------------------ */
