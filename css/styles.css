@@ -120,7 +120,7 @@ img {
 }
 
 .contact-mail {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .contact-mail,
@@ -137,6 +137,12 @@ img {
 .navigation-link:focus {
   color: var(--accent-color);
 }
+
+.contact-mail:hover .contact-icons,
+.contact-phone:hover .contact-icons {
+  fill: var(--accent-color);
+}
+
 .header .adress {
   display: flex;
 }
@@ -145,6 +151,14 @@ img {
 .hero {
   height: 600px;
   background-color: var(--bgc-main);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   padding: 200px;
 }
@@ -209,6 +223,19 @@ img {
   color: var(--text-color);
 }
 
+.wrap-icon {
+  height: 120px;
+  background-color: var(--bgc-secondary);
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features-list-icon {
+  width: 70px;
+  height: 70px;
+}
 /* ------------------------------- WORK ---------------------------- */
 .work {
   padding-bottom: 94px;
